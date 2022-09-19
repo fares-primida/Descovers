@@ -107,7 +107,8 @@ header .end a {
   background-color: red;
 }
 .catogories-section .c-container .cart .c-image img {
-  width: 100%;
+  height: 100%;
+  width: 300px;
 }
 .catogories-section .c-container .cart h2 {
   font-size: 25px;
@@ -138,6 +139,7 @@ header .end a {
 }
 .third-section .p-container .p-cart .p-image img {
   width: 100%;
+  height: 100%;
 }
 .third-section .p-container .p-cart p {
   padding: 5px;
@@ -197,6 +199,7 @@ header .end a {
 }
 .four-section .a-container .a-cart .a-image img {
   width: 100%;
+  height: 100%;
 }
 
 .email-section {
