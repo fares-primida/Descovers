@@ -193,12 +193,94 @@ header .end a {
   width: 100%;
 }
 
-.email-subscrib {
+.email-section {
   width: 100%;
   height: 50vh;
 }
-.email-subscrib .suscrib-content {
-  left: 50%;
+.email-section form input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-right: 1px solid #000;
+  background-color: #ddd;
+  padding: 5px;
+}
+.email-section form button {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #111;
+}
+footer .about {
+  width: 60%;
+  height: 100%;
+}
+footer .about .abour-cart {
+  padding: 20px 10px;
+  width: 250px;
+  height: 300px;
+}
+footer .about .abour-cart .name {
+  color: #fff;
+}
+footer .about .abour-cart .name:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: blue;
+}
+footer .about .abour-cart .category {
+  bottom: 0;
+}
+footer .about .abour-cart .category p {
+  color: #999;
+}
+footer .about::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 300px;
+  background-color: #444;
+  right: 0;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
+}
+footer .contact {
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+}
+footer .contact .contact-cart {
+  top: 25%;
+}
+footer .contact .contact-cart .name {
+  color: #777;
+}
+footer .contact .contact-cart .social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 5px;
+  color: #777;
+  transition: 0.1s ease-in-out;
+}
+footer .contact .contact-cart .social-icons a:hover {
+  color: blue;
+}
+footer .contact .contact-cart-2 {
+  bottom: 20%;
+}
+footer .contact .contact-cart-2 h2 {
+  font-size: 20px;
+  color: #777;
 }/*# sourceMappingURL=style.css.map */
